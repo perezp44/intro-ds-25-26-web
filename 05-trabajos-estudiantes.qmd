@@ -1,0 +1,38 @@
+---
+#title: "Información sobre el curso"
+toc: true
+#self-contained: true
+toc-title-website: "En esta página"
+toc-title-document: "Indice de contenidos"
+
+---
+
+## Trabajos (curso 2025-26)
+
+Como parte de la evaluación continua, los 28? estudiantes del curso 2025-26 elaborarán dos trabajos: uno en equipo y otro individual. Se podrán ver a finales de 2025.
+
+
+## Cursos anteriores
+
+<br>
+
+::: {.callout-note collapse="false" appearance="default" icon="false"}
+#### Trabajos de cursos anteriores
+
+
+Puedes ver los trabajos elaborados por estudiantes de **cursos anteriores** en los siguiente links:
+
+   - [Curso 2024-25](./mas-cosas/07-trabajos_2024-25.html){target="_blank"}
+
+   - [Curso 2023-24](./mas-cosas/07-trabajos_2023-24.html){target="_blank"}
+
+   - [Curso 2022-23](./mas-cosas/07-trabajos_2022-23.html){target="_blank"}
+   
+   - [Curso 2021-22](./mas-cosas/07-trabajos_2021-22.html){target="_blank"}
+   
+   - [Curso 2020-21](./mas-cosas/07-trabajos_2020-21.html){target="_blank"}
+   
+   - [Curso 2019-20](./mas-cosas/07-trabajos_2019-20.html){target="_blank"}
+
+:::
+
