@@ -4,7 +4,6 @@
 
 <!-- badges: end -->
 
-<!-- badges: start -->
 
 ## Welcome
 
@@ -17,3 +16,5 @@ La **página web** del curso está aquí: <https://perezp44.github.io/intro-ds-2
 <br>
 
 -- Pedro J. Pérez
+
+--
