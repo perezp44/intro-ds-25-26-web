@@ -17,4 +17,3 @@ La **página web** del curso está aquí: <https://perezp44.github.io/intro-ds-2
 
 -- Pedro J. Pérez
 
---
