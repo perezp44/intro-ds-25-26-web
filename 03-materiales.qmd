@@ -97,6 +97,46 @@ En el curso usaremos diversos tipos de materiales, los principales son:
 
 
 
+
+
+::: {.callout-important collapse="true" appearance="default" icon="false"}
+## Descarga de los guiones
+
+- Los guiones se descargan simplemente pinchando en los links; pero, si quieres descargarlos con código:
+
+```{r}
+#| eval: false
+#| code-line-numbers: false
+#| code-overflow: wrap
+#| code-fold: true
+#| code-summary: "Descargar (y descomprimir) los guiones con código R:"
+
+
+file_to_download <- "guion_xx.zip"  #- Has de cambiar "guion_xx.zip" por guion_01.zip" o "guion_02.zip"
+
+url <- paste0("https://github.com/perezp44/intro-ds-25-26-web/raw/main/guiones/", file_to_download)
+
+download.file(url, destfile = file_to_download)
+
+unzip(zipfile = file_to_download)
+
+file.remove(file_to_download)
+
+```
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 
 ## Plantillas para los trabajos

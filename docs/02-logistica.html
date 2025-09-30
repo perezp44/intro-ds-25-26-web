@@ -275,7 +275,7 @@ Instalación de paquetes: más detalles
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"pak"</span><span class="op">)</span></span>
 <span></span>
-<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"tidyverse"</span>, <span class="st">"curl"</span>, <span class="st">"eurostat"</span>, <span class="st">"here"</span>, <span class="st">"palmerpenguins"</span>, <span class="st">"quantmod"</span>, <span class="st">"rio"</span>, <span class="st">"gt"</span>, <span class="st">"DT"</span>, <span class="st">"gapminder"</span>, <span class="st">"markdown"</span><span class="op">)</span></span>
+<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"tidyverse"</span>, <span class="st">"curl"</span>, <span class="st">"eurostat"</span>, <span class="st">"here"</span>, <span class="st">"palmerpenguins"</span>, <span class="st">"quantmod"</span>, <span class="st">"rio"</span>, <span class="st">"gt"</span>, <span class="st">"DT"</span>, <span class="st">"gapminder"</span>, <span class="st">"markdown"</span>, <span class="st">"knitr"</span><span class="op">)</span></span>
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span>   </span>
 <span></span>
 <span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"usethis"</span>, <span class="st">"janitor"</span>, <span class="st">"ggthemes"</span>, <span class="st">"gganimate"</span>, <span class="st">"sjPlot"</span>, <span class="st">"refugees"</span>, <span class="st">"slider"</span>, <span class="st">"repmis"</span>, <span class="st">"jtools"</span>, <span class="st">"huxtable"</span><span class="op">)</span></span>
@@ -307,6 +307,12 @@ Instalación de paquetes: más detalles
 <span></span>
 <span><span class="va">my_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"meme"</span>, <span class="st">"imager"</span>, <span class="st">"sctyner/memer"</span>, <span class="st">"devtools"</span>, <span class="st">"ggpol"</span>, <span class="st">"pxR"</span>, <span class="st">"mapproj"</span>, <span class="st">"WDI"</span>, <span class="st">"wbstats"</span>, <span class="st">"rJava"</span><span class="op">)</span></span>
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">my_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"devtools"</span>, <span class="st">"data.table"</span>, <span class="st">"quanteda"</span>, <span class="st">"rstudio/TinyTeX"</span><span class="op">)</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"stringi"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"tinytext"</span><span class="op">)</span></span>
 <span></span>
 <span></span>
 <span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"perezp44/pjpv.curso.R.2022"</span>, <span class="st">"perezp44/pjpv2020.01"</span><span class="op">)</span></span>
@@ -353,9 +359,9 @@ Más cosas sobre instalación R
 <ul>
 <li>Para instalar <code>tinytext</code> &amp; friends, desde <strong>la TERMINAL</strong>:</li>
 </ul>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">quarto</span> install tool tinytext</span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">quarto</span> install tinytext</span>
 <span id="cb4-2"><a href="#cb4-2"></a><span class="ex">quarto</span> install tinytex <span class="at">--update-path</span></span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="ex">quarto</span> install tool chromium</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="ex">quarto</span> install chromium</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Algunos chequeos (desde la TERMINAL):</li>
 </ul>

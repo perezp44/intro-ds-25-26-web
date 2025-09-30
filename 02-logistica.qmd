@@ -88,7 +88,7 @@ En el curso utilizaremos ordenadores y algunos programas y servicios informátic
 
 install.packages("pak")
 
-mys_pkgs <- c("tidyverse", "curl", "eurostat", "here", "palmerpenguins", "quantmod", "rio", "gt", "DT", "gapminder", "markdown")
+mys_pkgs <- c("tidyverse", "curl", "eurostat", "here", "palmerpenguins", "quantmod", "rio", "gt", "DT", "gapminder", "markdown", "knitr")
 pak::pkg_install(mys_pkgs)   
 
 mys_pkgs <- c("usethis", "janitor", "ggthemes", "gganimate", "sjPlot", "refugees", "slider", "repmis", "jtools", "huxtable")
@@ -120,6 +120,12 @@ pak::pkg_install(mys_pkgs)
 
 my_pkgs <- c("meme", "imager", "sctyner/memer", "devtools", "ggpol", "pxR", "mapproj", "WDI", "wbstats", "rJava")
 pak::pkg_install(mys_pkgs)
+
+my_pkgs <- c("devtools", "data.table", "quanteda", "rstudio/TinyTeX")
+pak::pkg_install(mys_pkgs)
+
+install.packages("stringi")
+install.packages("tinytext")
 
 
 mys_pkgs <- c("perezp44/pjpv.curso.R.2022", "perezp44/pjpv2020.01")
@@ -165,9 +171,9 @@ devtools::has_devel()    #- Your system is ready to build packages!
 
 
 ```bash
-quarto install tool tinytext
+quarto install tinytext
 quarto install tinytex --update-path
-quarto install tool chromium
+quarto install chromium
 ```
 
 - Algunos chequeos (desde la TERMINAL):
