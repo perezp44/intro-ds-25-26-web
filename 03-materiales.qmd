@@ -95,6 +95,7 @@ En el curso usaremos diversos tipos de materiales, los principales son:
 
 - [Guión 01](./guiones/guion_01.zip){target="_blank"} 
 
+- [Guión 02](./guiones/guion_02.zip){target="_blank"} 
 
 
 
