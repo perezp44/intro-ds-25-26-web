@@ -129,21 +129,14 @@ file.remove(file_to_download)
 :::
 
 
-
-
-
-
-
-
-
-
-
-
 <br>
 
 ## Plantillas para los trabajos
 
-(Colgaré las plantillas cuando estéis preparados para iniciar los trabajos)
+- [Plantilla para trabajo en equipo](./guiones/trabajo_BigData_equipo.zip){target="_blank"} 
+
+- [Plantilla para trabajo individual](./guiones/trabajo_BigData_individual.zip){target="_blank"} 
+
 
 
 <br><br>
