@@ -99,7 +99,7 @@ En el curso usaremos diversos tipos de materiales, los principales son:
 
 - [Guión 03](./guiones/guion_03.zip){target="_blank"} 
 
-
+- [Repaso Quarto](./guiones/repaso_quarto.zip){target="_blank"} 
 
 ::: {.callout-important collapse="true" appearance="default" icon="false"}
 ## Descarga de los guiones
