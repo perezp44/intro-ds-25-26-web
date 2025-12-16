@@ -10,12 +10,9 @@ toc-title-document: "Indice de contenidos"
 ## Trabajos (curso 2025-26)
 
 
-::: blue
-Los  estudiantes del **curso 2025-2026**, como parte de la evaluación continua, tuvieron que presentar dos trabajos, uno individual y otro en equipo. Podrás verlos en los siguientes enlaces:
-:::
+Los  estudiantes del **curso 2025-2026**, como parte de la evaluación continua, tuvieron que presentar dos trabajos, uno individual y otro en equipo. Puedes verlos en los siguientes enlaces:
 
 
-<br><br>
 
 ### Trabajos en equipo
 
@@ -24,7 +21,6 @@ Los  estudiantes del **curso 2025-2026**, como parte de la evaluación continua,
 -  **Simón Casañ Olmos** , **Adrián Fernández Bruque** y **Carlos Hueso Muñoz** Realizaron el trabajo: [Champions League](https://Adrifer04.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Adrifer04/trabajo_BigData){target="_blank"}. 
 
 <br>
-
 
 -   **Rayan Akhnati Tafar**, **Noura Es Salhi Piquer** y **Giulia Piovesan** presentaron el trabajo [La evolución del aborto en las últimas décadas](https://nuraesp.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/nuraesp/trabajo_BigData){target="_blank"}.
 
