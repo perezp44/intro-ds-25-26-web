@@ -29,6 +29,13 @@ Los  estudiantes del **curso 2025-2026**, como parte de la evaluación continua,
 
 -   **Gabriela Galeano**, **Arantxa Arcos** y **Lucía Bellido** presentaron el trabajo [Homicidios por el Mundo](https://gabagaleano/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/gabagaleano/trabajo_BigData_equipo){target="_blank"}.
 
+<br>
+
+-   **Jorge Moreno**, **Victor Cloquell** y **Juan Pablo Endrino** presentaron el trabajo [La vivienda, una mirada a Europa y a España](https://juan102002.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/juan102002/trabajo_BigData){target="_blank"}.
+
+<br>
+
+- Isabel Punter Fuster, (Juan Carlos y Zulay): <https://ipfuster.github.io/trabajo_BigData_equipo/>
 
 
 ## Cursos anteriores
