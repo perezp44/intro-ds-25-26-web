@@ -40,6 +40,21 @@ el trabajo [El mercado de la vivienda](https://ipfuster.github.io/trabajo_BigDat
 
 <br>
 
+-   **Yutao Henry Jiang Zheng**, **Lucas Osejo Martínez** y **Javier Arnau Basagoiti Montagut** 
+presentaron el trabajo [El tráfico marítimo de Colombia](https://yhjz57.github.io/trabajo_BigData_equipo/){target="_blank"}. 
+El repo del trabajo está [aquí](https://github.com/YHJZ57/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-  **Marian Delfa Baena**, **Abel Guarinos Marin** y **Xavier Vidal Roselló** 
+presentaron el trabajo [La evolución demográfica de España](https://mariandelfa.github.io/trabajo_BigData_equipo/){target="_blank"}. 
+El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData_equipo ){target="_blank"}.
+
+
+
+<br>
+
+
 ## Cursos anteriores
 
 <br>
