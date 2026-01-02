@@ -55,7 +55,7 @@ library(tidyverse)
 
 - Además, durante las dos horas del examen, **NO SE PERMITE ABRIR NINGÚN NAVEGADOR** (Chrome, safari, Firefox, etc..., etc...), ni obviamente ninguna aplicación de correo o de redes sociales.
 
-- Para asegurarte que al procesar el examen NO se te abra el navegador, asegúrate de que tienes configurado RStudio para que al hacer el RENDER a tu `.qmd` con tus respuestas al examen, el resultado se visualice en la  "Viewer Pane" y no se te abra el navegador. Para ello has de: 
+- Para asegurarte de que al procesar el examen NO se te abra el navegador, tienes que asegurarte de que tienes configurado RStudio correctamente para que al hacer el RENDER de tu `.qmd` con tus respuestas al examen, el resultado se visualice en la  "Viewer Pane", y no se te abra en el navegador. Para ello has de: 
 
 :::: {.columns}
 ::: {.column width="5%"}
@@ -109,7 +109,7 @@ library(tidyverse)
 
 4. No borres el archivo `_quarto.yml` del Qproject; de hecho, se valorará positivamente que las opciones de chunks y de procesado genérico del Qproject se especifiquen en el archivo `_quarto.yml` en lugar de en el qmd con las respuestas al examen.
 
-5. En el Qproject has de crear una carpeta llamada "datos" donde se almacenarán los ficheros de datos que te haré llegar por mail (a tu mail de la UV) media hora antes del examen. 
+5. En el Qproject has de crear una carpeta llamada "datos" donde se almacenarán los ficheros de datos que te haré llegar por mail (a tu mail de la UV) 10-15 minutos antes del examen. 
 
 5. Al finalizar el examen deberás comprimir en un archivo `zip` tu proyecto y hacérselo llegar al profesor como éste indique en el aula. Es decir, al finalizar el examen tienes que entregar **un único fichero .zip con tu Qproject**. Obviamente, el fichero .zip en mi caso se llamaría: `examen_perez_pedro_HQ696792.zip` 
 
