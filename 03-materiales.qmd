@@ -137,7 +137,7 @@ file.remove(file_to_download)
 
 - [Plantilla para trabajo individual](./guiones/trabajo_BigData_individual.zip){target="_blank"} 
 
-- [¿Cómo sublir los trabajos individuales?](./mas-cosas/_entrega_trabajo_individual.html){target="_blank"} 
+- [¿Cómo sublir los trabajos individuales?](./mas-cosas/_entrega_trabajo_individual.qmd){target="_blank"} 
 
 <br><br>
 
