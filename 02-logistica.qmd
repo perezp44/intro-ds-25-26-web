@@ -229,5 +229,8 @@ Durante el curso, utilizaremos diversos materiales, puedes encontrarlos en la se
 
 <br>
 
+## Instrucciones para el examen final
+
+- [Instrucciones](./mas-cosas/instrucciones_examen.html){target="_blank"} y un [ejemplo](./mas-cosas/ex_final_BigData_24-25_sin-soluciones-bones.html){target="_blank"} de cómo ha de quedar más o menos el documento .html con tus respuestas
 
 

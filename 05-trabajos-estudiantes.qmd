@@ -52,7 +52,21 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 
 
 
+
+<br><br>
+
+
+### Trabajos individuales
+
 <br>
+
+-   **Zulay Rodriguez Peñin** realizó el trabajo: [La Pobreza Laboral en la Unión Europea](https://zulayrp3.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/zulayrp3/trabajo_BigData_individual){target="_blank"}.
+
+-   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
+
+
+
+
 
 
 ## Cursos anteriores
