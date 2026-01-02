@@ -145,7 +145,7 @@ library(tidyverse)
 
 5. **No se deben copiar ni las instrucciones, ni los enunciados de las preguntas** pero, si quieres, puedes escribir en el texto y en el código del .qmd los comentarios que consideres oportunos.
 
-6. La mejor forma de ver cómo ha de quedar vuestro documento .html es ver **un ejemplo**. Lo tenéis  [**aquí**](./ex_final_BigData_24-25_bones.html){target="_blank"}. 
+6. La mejor forma de ver cómo ha de quedar vuestro documento .html es ver **un ejemplo**. Lo tenéis  [**aquí**](https://perezp44.github.io/intro-ds-25-26-web/mas-cosas/ex_final_BigData_24-25_sin-soluciones-bones.html){target="_blank"}. 
 
 
 
