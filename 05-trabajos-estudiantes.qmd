@@ -62,7 +62,12 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 
 -   **Zulay Rodriguez Peñin** realizó el trabajo: [La Pobreza Laboral en la Unión Europea](https://zulayrp3.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/zulayrp3/trabajo_BigData_individual){target="_blank"}.
 
--   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
+
+-   **Arantxa Anais Arcos Raimundo** realizó el trabajo: [MCU. Un análisis codificado](https://araarcos.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/araarcos/trabajo_BigData_individual){target="_blank"}.
+
+
+
+-   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
 
 
 

@@ -59,7 +59,7 @@ Mi usuario de Github es: nereaPM_99
 Por lo tanto, el párrafo que has de poner en la web de la asignatura para que puedas poner el enlace a nuestro trabajo es exactamente este:
 
 
--   **Nerea Pérez Mártinez** presentó el trabajo [Una aproximación empírica a los problemas económicos más tochos](https://nereaPM_99.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/nereaPM_99/trabajo_BigData){target="_blank"}.
+-   **Nerea Pérez Mártinez** presentó el trabajo [Una aproximación empírica a los problemas económicos más tochos](https://nereaPM_99.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/nereaPM_99/trabajo_BigData_individual){target="_blank"}.
 
 Pedro, he tenido mucho cuidado en cambiar el nombre de los integrantes del equipo, el título del trabajo y el usuario de Github en 2 sitios, así que debería funcionar tal cual.
 
