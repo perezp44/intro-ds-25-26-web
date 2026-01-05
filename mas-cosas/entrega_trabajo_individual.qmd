@@ -26,11 +26,11 @@ library(tidyverse)
 
     - Entráis a Github con vuestro usuario y contraseña
 
-    - Crear un nuevo repo: `NEW` . Hay que ponerle **exactamente** el nombre `trabajo_BigData` 
+    - Crear un nuevo repo: `NEW` . Hay que ponerle **exactamente** el nombre `trabajo_BigData_individual` 
 
     - Vais subiendo los archivos (con `upload file`). Solo se pueden subir 100 archivos cada vez
 
-    - Finalmente hay que hacer que se pueda visualizar el trabajo en internet. Para ello hay que ir al repo de tu trabajo. Una vez allí, hay que ir a `Settings` y en la parte de abajo hay una sección que se llama `Pages`. Allí encontrarás una sección lalmada "Build and deployment". En esta sección hay que seleccionar `main` y `/root`  y darle a `Save`. En unos minutos el trabajo estará visible en internet en al dirección: `https://<tu-usuario-Github>.github.io/trabajo_BigData/`; por ejemplo, en mi caso, que mi usuario es `perezp44`, mi dirección sería: `https://perezp44.github.io/trabajo_BigData/`
+    - Finalmente hay que hacer que se pueda visualizar el trabajo en internet. Para ello hay que ir al repo de tu trabajo. Una vez allí, hay que ir a `Settings` y en la parte de abajo hay una sección que se llama `Pages`. Allí encontrarás una sección lalmada "Build and deployment". En esta sección hay que seleccionar `main` y `/root`  y darle a `Save`. En unos minutos el trabajo estará visible en internet en al dirección: `https://<tu-usuario-Github>.github.io/trabajo_BigData_individual/`; por ejemplo, en mi caso, que mi usuario es `perezp44`, mi dirección sería: `https://perezp44.github.io/trabajo_BigData_individual/`
     
     
 
