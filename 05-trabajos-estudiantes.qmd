@@ -99,6 +99,8 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 
 
 
+-   **Isabel Sanz Miquel** presentó el trabajo [Un análisis de la educación terciaria y el nivel de riqueza](https://IsabelSanz87.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/IsabelSanz87/trabajo_BigData_individual){target="_blank"}.
+
 -   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
 
 
