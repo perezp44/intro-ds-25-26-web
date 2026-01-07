@@ -163,7 +163,7 @@ library(tidyverse)
 
 - Cada apartado aportará un punto.
 
-- Recuerda que factores como la estructura y limpieza del código o el ajustarse a estas instrucciones también se valoran; por lo que, la puntuación máxima del examen puede llegar a 24 puntos.
+- Recuerda que factores como la estructura y limpieza del código o el ajustarse a estas instrucciones también se valoran; por lo que, la puntuación máxima del examen puede llegar a 25 puntos.
 
 
 </div>
