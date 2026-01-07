@@ -159,11 +159,11 @@ library(tidyverse)
 **PUNTUACIÓN:**
 
 
-- El examen constará de entre 3 y 5 preguntas con varios apartados. En total habrán 20 apartados (aproximadamente)
+- El examen tendrá 4 preguntas con varios apartados. En total habrán 19 apartados
 
 - Cada apartado aportará un punto.
 
-- Recuerda que factores como la estructura y limpieza del código o el ajustarse a estas instrucciones también se valoran; por lo que, la puntuación máxima del examen puede llegar a 25 puntos.
+- Recuerda que factores como la estructura y limpieza del código o el ajustarse a estas instrucciones también se valoran; por lo que, la puntuación máxima del examen puede llegar a 24 puntos.
 
 
 </div>
