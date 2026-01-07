@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.7.31">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <title>materiales – Programación y manejo de datos con R (2025-26)</title>
 <style>
@@ -67,10 +67,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d546e77db9b79ff45cab1724b04f94b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-29fdfc89ac7fc112ecf2c1fbf9d5ebfc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7c85c393d4758721cc53dfe1861e5672.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap-d7cf54c5e05bfafc6472492e972e3b6c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -334,6 +334,55 @@ Descarga de los guiones
 <li><p><a href="https://github.com/Joscelinrocha/Learning-R-Resources">Learning R resources</a></p></li>
 <li><p><a href="https://www.learnr4free.com/">www.learnr4free.com</a></p></li>
 </ul>
+<p><br><br></p>
+<hr>
+<p><br><br></p>
+<div class="cell">
+<details open="" class="code-fold"><summary>Código</summary><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">auditpol</span> /set /category:<span class="st">"Seguimiento detallado"</span> /success:enable</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details open="" class="code-fold"><summary>Código</summary><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Get-WinEvent</span> <span class="at">-LogName</span> Security <span class="at">-MaxEvents</span> 5000 <span class="kw">|</span> <span class="ex">Where-Object</span> {<span class="va">$_</span>.Id <span class="at">-eq</span> 4688 <span class="at">-and</span> <span class="va">$_</span>.TimeCreated <span class="at">-gt</span> <span class="er">(</span><span class="ex">Get-Date</span><span class="kw">)</span><span class="ex">.AddHours</span><span class="er">(</span><span class="ex">-2.2</span><span class="kw">)</span><span class="er">}</span> <span class="kw">|</span> <span class="ex">ForEach-Object</span> {</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="va">$xml</span> = <span class="pp">[</span><span class="ss">xml</span><span class="pp">]</span><span class="va">$_</span>.ToXml<span class="er">(</span><span class="kw">)</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="va">$process</span> = <span class="va">$xml</span>.Event.EventData.Data <span class="kw">|</span> <span class="ex">Where-Object</span> {<span class="va">$_</span>.Name <span class="at">-eq</span> <span class="st">'NewProcessName'</span>} <span class="kw">|</span> <span class="ex">Select-Object</span> <span class="at">-ExpandProperty</span> <span class="st">'#text'</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">[PSCustomObject]@{</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="ex">Hora</span> = <span class="va">$_</span>.TimeCreated</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="ex">Programa</span> = Split-Path <span class="va">$process</span> <span class="at">-Leaf</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="ex">RutaCompleta</span> = <span class="va">$process</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="er">}</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="er">}</span> <span class="kw">|</span> <span class="ex">Where-Object</span> {</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.RutaCompleta</span> <span class="at">-notlike</span> <span class="st">"*\Windows\System32\*"</span> <span class="at">-and</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.RutaCompleta</span> <span class="at">-notlike</span> <span class="st">"*\Windows\SysWOW64\*"</span> <span class="at">-and</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'svchost*'</span> <span class="at">-and</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'conhost*'</span> <span class="at">-and</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'backgroundTask*'</span> <span class="at">-and</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'RuntimeBroker*'</span> <span class="at">-and</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'dllhost*'</span> <span class="at">-and</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'taskhostw*'</span> <span class="at">-and</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'SearchIndexer*'</span> <span class="at">-and</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'WmiPrvSE*'</span> <span class="at">-and</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'audiodg*'</span> <span class="at">-and</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'dwm*'</span> <span class="at">-and</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'csrss*'</span> <span class="at">-and</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'lsass*'</span> <span class="at">-and</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'services*'</span> <span class="at">-and</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'winlogon*'</span> <span class="at">-and</span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'fontdrvhost*'</span> <span class="at">-and</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="va">$_</span><span class="ex">.Programa</span> <span class="at">-notlike</span> <span class="st">'smss*'</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="er">}</span> <span class="kw">|</span> <span class="ex">Group-Object</span> Programa <span class="kw">|</span> <span class="ex">ForEach-Object</span> {<span class="va">$_</span>.Group <span class="kw">|</span> <span class="ex">Sort-Object</span> Hora <span class="at">-Descending</span> <span class="kw">|</span> <span class="ex">Select-Object</span> <span class="at">-First</span> 1} <span class="kw">|</span> <span class="ex">Sort-Object</span> Hora <span class="at">-Descending</span> <span class="kw">|</span> <span class="ex">Format-Table</span> Hora, Programa <span class="at">-AutoSize</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details open="" class="code-fold"><summary>Código</summary><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">log</span> show <span class="at">--predicate</span> <span class="st">'eventMessage contains "LAUNCHING"'</span> <span class="at">--style</span> compact <span class="at">--last</span> 140m <span class="dv">2</span><span class="op">&gt;</span>/dev/null <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="at">-iE</span> <span class="st">"\.(app|Application)"</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="at">-vE</span> <span class="st">"com\.apple\.|system|daemon|helper|agent"</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">awk</span> <span class="st">'{print $1, $2, $NF}'</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">sed</span> <span class="st">'s/.*\///'</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">sed</span> <span class="st">'s/\.app.*//'</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">awk</span> <span class="st">'!seen[$3]++'</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="ex">column</span> <span class="at">-t</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;">
 
 </div>

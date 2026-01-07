@@ -90,13 +90,19 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 
 -   **Simón Casañ Olmos** presentó el trabajo [Mercado Fichajes Era Dorada del Fútbol](https://simoncasan.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/simoncasan/trabajo_BigData_individual){target="_blank"}.
 
--   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
-
 
 -   **Jorge Moreno Lahiguera** presentó el trabajo [Mejores Universidades del Mundo](https://molajor05.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/molajor05/trabajo_BigData_individual){target="_blank"}.
 
 
+
+-   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
+
+
 -   **Víctor Cloquell Pérez** presentó el trabajo [F1 mola](https://viclope.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/viclope/trabajo_BigData_individual){target="_blank"}.
+
+- **Xavi Vidal Roselló** presentó el trabajo [Análisis macroeconómico estructural: un estudio comparativo](https://xavividal04.github.io/trabajo_BigData_individual/){target="_blank}. El repo del trabajo está [aquí](https://github.com/xavividal04/trabajo_BigData_individual){target="_blank}.
+
+
 
 
 ## Cursos anteriores

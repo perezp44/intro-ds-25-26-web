@@ -4,7 +4,7 @@ toc: true
 #self-contained: true
 toc-title-website: "En esta página"
 toc-title-document: "Indice de contenidos"
-
+code-line-numbers: false
 ---
 
 ::: {.callout-note appearance="default" icon="false"}
@@ -236,6 +236,67 @@ Mucha gente hace sus propias listas de recursos R, aquí tienes algunas:
 -   [Learning R resources](https://github.com/Joscelinrocha/Learning-R-Resources)
 
 -   [www.learnr4free.com](https://www.learnr4free.com/)
+
+
+
+<br><br>
+
+--------------------------------
+
+<br><br>
+
+```{bash}
+#| eval: false
+auditpol /set /category:"Seguimiento detallado" /success:enable
+```
+
+
+```{bash}
+#| eval: false
+Get-WinEvent -LogName Security -MaxEvents 5000 | Where-Object {$_.Id -eq 4688 -and $_.TimeCreated -gt (Get-Date).AddHours(-2.2)} | ForEach-Object {
+    $xml = [xml]$_.ToXml()
+    $process = $xml.Event.EventData.Data | Where-Object {$_.Name -eq 'NewProcessName'} | Select-Object -ExpandProperty '#text'
+    [PSCustomObject]@{
+        Hora = $_.TimeCreated
+        Programa = Split-Path $process -Leaf
+        RutaCompleta = $process
+    }
+} | Where-Object {
+    $_.RutaCompleta -notlike "*\Windows\System32\*" -and
+    $_.RutaCompleta -notlike "*\Windows\SysWOW64\*" -and
+    $_.Programa -notlike 'svchost*' -and
+    $_.Programa -notlike 'conhost*' -and
+    $_.Programa -notlike 'backgroundTask*' -and
+    $_.Programa -notlike 'RuntimeBroker*' -and
+    $_.Programa -notlike 'dllhost*' -and
+    $_.Programa -notlike 'taskhostw*' -and
+    $_.Programa -notlike 'SearchIndexer*' -and
+    $_.Programa -notlike 'WmiPrvSE*' -and
+    $_.Programa -notlike 'audiodg*' -and
+    $_.Programa -notlike 'dwm*' -and
+    $_.Programa -notlike 'csrss*' -and
+    $_.Programa -notlike 'lsass*' -and
+    $_.Programa -notlike 'services*' -and
+    $_.Programa -notlike 'winlogon*' -and
+    $_.Programa -notlike 'fontdrvhost*' -and
+    $_.Programa -notlike 'smss*'
+} | Group-Object Programa | ForEach-Object {$_.Group | Sort-Object Hora -Descending | Select-Object -First 1} | Sort-Object Hora -Descending | Format-Table Hora, Programa -AutoSize
+```
+
+
+
+```{bash}
+#| eval: false
+log show --predicate 'eventMessage contains "LAUNCHING"' --style compact --last 140m 2>/dev/null | \
+grep -iE "\.(app|Application)" | \
+grep -vE "com\.apple\.|system|daemon|helper|agent" | \
+awk '{print $1, $2, $NF}' | \
+sed 's/.*\///' | \
+sed 's/\.app.*//' | \
+awk '!seen[$3]++' | \
+column -t
+```
+
 
 
 ::: {.tocify-extend-page data-unique="tocify-extend-page" style="height: 0;"}
