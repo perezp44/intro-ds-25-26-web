@@ -86,6 +86,8 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 -   **Jaume Garcia Martínez** realizó el trabajo: [La Desigualdad en el Mundo Occidental](https://jaumegar.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Jaumegar/trabajo_BigData_individual){target="_blank"}.
 
 
+-   **Isabel Punter Fuster** presentó el trabajo [Conflictos Bélicos](https://ipfuster.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/ipfuster/trabajo_BigData_individual){target="_blank"}.
+
 -   **Simón Casañ Olmos** presentó el trabajo [Mercado Fichajes Era Dorada del Fútbol](https://simoncasan.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/simoncasan/trabajo_BigData_individual){target="_blank"}.
 
 -   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
