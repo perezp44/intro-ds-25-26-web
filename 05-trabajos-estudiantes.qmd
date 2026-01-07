@@ -95,6 +95,10 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 
 -   **Marian Delfa Baena** presentó el trabajo [El gran problema del desempleo](https://mariandelfa.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData_individual){target="_blank"}.
 
+-   **Yutao Henry Jiang Zheng** presentó el trabajo [La población de animales de granja en Europa](https://yhjz57.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/YHJZ57/trabajo_BigData_individual){target="_blank"}.
+
+
+
 -   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
 
 
