@@ -50,7 +50,9 @@ El repo del trabajo está [aquí](https://github.com/YHJZ57/trabajo_BigData_equi
 presentaron el trabajo [La evolución demográfica de España](https://mariandelfa.github.io/trabajo_BigData_equipo/){target="_blank"}. 
 El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData_equipo ){target="_blank"}.
 
-- **Jaume García Martínez**, **Isabel Sanz *Miquel** y **Sara Rubio Rosell** presentaron el trabajo [Análisis de la inflación en España 2002-2025](https://sararubio19.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/sararubio19/trabajo_BigData_equipo){target="_blank"}.
+<br>
+
+- **Jaume García Martínez**, **Isabel Sanz Miquel** y **Sara Rubio Rosell** presentaron el trabajo [Análisis de la inflación en España 2002-2025](https://sararubio19.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/sararubio19/trabajo_BigData_equipo){target="_blank"}.
 
 
 
@@ -102,6 +104,8 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 -   **Juan Carlos Pérez Hernando** presentó el trabajo [Algunos datos sobre España](https://jcperez21.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/jcperez21/trabajo_BigData_individual){target="_blank"}.
 
 
+::: {.callout-important collapse="false" appearance="default" icon="false"}
+### Trabajos que han de volver a subirse
 
 -   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
 
@@ -115,6 +119,7 @@ https://giuliapiovesan-beep.github.io/trabajo_BigData_individual/){target="_blan
 - **Xavi Vidal Roselló** presentó el trabajo [Análisis macroeconómico estructural: un estudio comparativo](https://xavividal04.github.io/trabajo_BigData_individual/){target="_blank}. El repo del trabajo está [aquí](https://github.com/xavividal04/trabajo_BigData_individual){target="_blank}.
 
 - **Rayan Akhnati Tafar** presentó el trabajo [Conumo o inversion indicadores de pre-recesion](https://rayanakhnati2.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/rayanakhnati2/trabajo_BigData_individual){target="_blank"}.
+:::
 
 
 ## Cursos anteriores
