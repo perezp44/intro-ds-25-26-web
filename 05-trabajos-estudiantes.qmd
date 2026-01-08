@@ -50,7 +50,7 @@ El repo del trabajo está [aquí](https://github.com/YHJZ57/trabajo_BigData_equi
 presentaron el trabajo [La evolución demográfica de España](https://mariandelfa.github.io/trabajo_BigData_equipo/){target="_blank"}. 
 El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData_equipo ){target="_blank"}.
 
-- **Jaume García Martínez**, **Isabel Sanz *Miquel** y **Sara Rubio Rosell** presentaron el trabajo [Análisis de la inflación en España 2002-2025](https://sararubio19.github.io/trabajo_BigData_equipo/). El repo del trabajo está [aquí] (https://github.com/sararubio19/trabajo_BigData_equipo).
+- **Jaume García Martínez**, **Isabel Sanz *Miquel** y **Sara Rubio Rosell** presentaron el trabajo [Análisis de la inflación en España 2002-2025](https://sararubio19.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/sararubio19/trabajo_BigData_equipo){target="_blank"}.
 
 
 
@@ -97,22 +97,24 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 
 -   **Yutao Henry Jiang Zheng** presentó el trabajo [La población de animales de granja en Europa](https://yhjz57.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/YHJZ57/trabajo_BigData_individual){target="_blank"}.
 
+-   **Noura Es Salhi Piquer** presentó el trabajo [Sabrina Carpenter](https://nuraesp.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/nuraesp/trabajo_BigData_individual){target="_blank"}.
+
+-   **Juan Carlos Pérez Hernando** presentó el trabajo [Algunos datos sobre España](https://jcperez21.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/jcperez21/trabajo_BigData_individual){target="_blank"}.
 
 
--   **Isabel Sanz Miquel** presentó el trabajo [Un análisis de la educación terciaria y el nivel de riqueza](https://IsabelSanz87.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/IsabelSanz87/trabajo_BigData_individual){target="_blank"}.
 
 -   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
 
+-   **Isabel Sanz Miquel** presentó el trabajo [Un análisis de la educación terciaria y el nivel de riqueza](https://IsabelSanz87.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/IsabelSanz87/trabajo_BigData_individual){target="_blank"}.
 
 -  **Piovesan Giulia** presentó el trabajo [Analisis de la brecha de genero en el salario y en el empleo](
 https://giuliapiovesan-beep.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/giuliapiovesan-beep/trabajo_BigData_individual){target="_blank"}.
-
 
 - **Víctor Cloquell Pérez** presentó el trabajo [F1 mola](https://viclope.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/viclope/trabajo_BigData_individual){target="_blank"}.
 
 - **Xavi Vidal Roselló** presentó el trabajo [Análisis macroeconómico estructural: un estudio comparativo](https://xavividal04.github.io/trabajo_BigData_individual/){target="_blank}. El repo del trabajo está [aquí](https://github.com/xavividal04/trabajo_BigData_individual){target="_blank}.
 
-
+- **Rayan Akhnati Tafar** presentó el trabajo [Conumo o inversion indicadores de pre-recesion](https://rayanakhnati2.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/rayanakhnati2/trabajo_BigData_individual){target="_blank"}.
 
 
 ## Cursos anteriores
