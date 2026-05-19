@@ -111,14 +111,13 @@ El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData
 
 -   **Isabel Sanz Miquel** presentó el trabajo [Un análisis de la educación terciaria y el nivel de riqueza](https://IsabelSanz87.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/IsabelSanz87/trabajo_BigData_individual){target="_blank"}.
 
--  **Piovesan Giulia** presentó el trabajo [Analisis de la brecha de genero en el salario y en el empleo](
-https://giuliapiovesan-beep.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/giuliapiovesan-beep/trabajo_BigData_individual){target="_blank"}.
+-  **Piovesan Giulia** presentó el trabajo [Analisis de la brecha de genero en el salario y en el empleo](https://giuliapiovesan-beep.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/giuliapiovesan-beep/trabajo_BigData_individual){target="_blank"}.
 
 - **Víctor Cloquell Pérez** presentó el trabajo [F1 mola](https://viclope.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/viclope/trabajo_BigData_individual){target="_blank"}.
 
-- **Xavi Vidal Roselló** presentó el trabajo [Análisis macroeconómico estructural: un estudio comparativo](https://xavividal04.github.io/trabajo_BigData_individual/){target="_blank}. El repo del trabajo está [aquí](https://github.com/xavividal04/trabajo_BigData_individual){target="_blank}.
+- **Xavi Vidal Roselló** presentó el trabajo [Análisis macroeconómico estructural: un estudio comparativo](https://xavividal04.github.io/trabajo_BigData_individual){target="_blank"}. El repo del trabajo está [aquí](https://github.com/xavividal04/trabajo_BigData_individual){target="_blank"}.
 
-- **Rayan Akhnati Tafar** presentó el trabajo [Conumo o inversion indicadores de pre-recesion](https://rayanakhnati2.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/rayanakhnati2/trabajo_BigData_individual){target="_blank"}.
+-   **Rayan Akhnati Tafar** presentó el trabajo [Consumo o Inversión? Indicadores de pre-recesión](https://rayanakhnati2.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/rayanakhnati2/trabajo_BigData_individual){target="_blank"}.
 :::
 
 
